@@ -2,19 +2,21 @@
 
 .section-conoceme {
   width: 100%;
-  height: 105vh;
+  height: 100vh;
   display: flex;
-  align-items: center;
+  padding-top: 25vh;
   justify-content: space-evenly;
   background: rgb(246, 214, 72);
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
-    rgba(246, 214, 72, 1) 92%,
-    rgba(255, 227, 103, 1) 97%,
-    rgba(255, 241, 177, 1) 100%
-  );
+    rgba(246, 214, 72, 1) 77%,
+    rgba(255, 231, 123, 1) 86%,
+    rgba(255, 248, 217, 1) 96%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
 }
 /* ========================================= */
+
 /* IMAGE PERSONAL */
 .imagen-personal {
   width: 320px;
@@ -28,7 +30,7 @@
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
 }
 /* ========================================= */
-/* INFO = IMAGEN + TEXTO */
+/* INFO = TEXTO + LINK */
 .info {
   width: 55vh;
   height: 53vh;
@@ -36,7 +38,9 @@
   border-radius: 15%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   margin-right: 10rem;
+  margin-top: 5vh;
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -44,7 +48,6 @@
   font-weight: bold;
 }
 /* ========================================= */
-
 /* TEXT PRESENTATION */
 .texto-presentacion {
   width: auto;

@@ -13,7 +13,7 @@ export const Conoceme = () => {
             <br />
             Actualmente me encuentro realizando prácticas en
             <span className="bold"> React</span>. <br />
-            Aspiro ser parte de grandes proyectos que brinden{" "}
+            Aspiro a ser parte de grandes proyectos que generen{" "}
             <span className="bold"> experiencias inolvidables</span>.
           </p>
 
