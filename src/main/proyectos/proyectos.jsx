@@ -1,57 +1,111 @@
 import React from "react";
 import "./proyectos.css";
-import { arrayProyectos } from "./arrayproyectos";
+import { arrayProyectosIzquierda } from "./arrayproyectos";
+import { arrayProyectosDerecha } from "./arrayproyectos";
 
 export const Proyectos = () => {
   return (
     <>
       <div className="section-proyectos">
-        <ListaProyectos />
+        <ListaProyectosIzquierda />
+        <ListaProyectosDerecha />
       </div>
     </>
   );
 };
 
-const ListaProyectos = () => {
-  const listaDeCards = arrayProyectos.map((proyecto) => {
+const ListaProyectosIzquierda = () => {
+  const listaDeCardsIzquierda = arrayProyectosIzquierda.map((proyecto) => {
     return (
-      <CardProyecto
-        imagenDesktop={proyecto.imagenDesktop}
-        imagenMobile={proyecto.imagenMobile}
-        name={proyecto.name}
-        descripcion={proyecto.descripcion}
-      />
+      <>
+        <CardProyectoIzquierdo
+          imagenDesktop={proyecto.imagenDesktop}
+          imagenMobile={proyecto.imagenMobile}
+          name={proyecto.name}
+          descripcion={proyecto.descripcion}
+          link={proyecto.link}
+        />
+      </>
     );
   });
-  return listaDeCards;
+  return listaDeCardsIzquierda;
 };
 
-const CardProyecto = (props) => {
+const CardProyectoIzquierdo = (props) => {
   return (
     <>
       <div className="contenedor-card">
-        <div className="contenedor-imagenes">
+        <div className="contenedor-imagenes bg-yellow">
+          <div className="nombre-proyecto">
+            <p>{props.name}</p>
+          </div>
           <img
             className="imagen-desktop"
             src={props.imagenDesktop}
             alt="imagen-proyecto-desktop"
           />
           <img
-            className="imagen-mobile"
+            className="imagen-mobile-izq"
             src={props.imagenMobile}
             alt="imagen-proyecto-mobile"
           />
-          <div className="nombre-proyecto">
-            <p>{props.name}</p>
-          </div>
         </div>
         <div className="contenedor-info">
           <div className="descripcion">
             <p>{props.descripcion}</p>
           </div>
-          <a className="link-proyecto" href="">
+          <a className="link-proyecto" href={props.link}>
             VISITA ESTE PROYECTO
           </a>
+        </div>
+      </div>
+    </>
+  );
+};
+
+const ListaProyectosDerecha = () => {
+  const listaDeCardsDerecha = arrayProyectosDerecha.map((proyecto) => {
+    return (
+      <>
+        <CardProyectoDerecho
+          imagenDesktop={proyecto.imagenDesktop}
+          imagenMobile={proyecto.imagenMobile}
+          name={proyecto.name}
+          descripcion={proyecto.descripcion}
+          link={proyecto.link}
+        />
+      </>
+    );
+  });
+  return listaDeCardsDerecha;
+};
+
+const CardProyectoDerecho = (props) => {
+  return (
+    <>
+      <div className="contenedor-card">
+        <div className="contenedor-info bg-withe">
+          <div className="descripcion">
+            <p>{props.descripcion}</p>
+          </div>
+          <a className="link-proyecto" href={props.link}>
+            VISITA ESTE PROYECTO
+          </a>
+        </div>
+        <div className="contenedor-imagenes bg-yellow">
+          <div className="nombre-proyecto">
+            <p>{props.name}</p>
+          </div>
+          <img
+            className="imagen-desktop"
+            src={props.imagenDesktop}
+            alt="imagen-proyecto-desktop"
+          />
+          <img
+            className="imagen-mobile-der"
+            src={props.imagenMobile}
+            alt="imagen-proyecto-mobile"
+          />
         </div>
       </div>
     </>

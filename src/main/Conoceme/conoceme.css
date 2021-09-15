@@ -6,20 +6,14 @@
   display: flex;
   padding-top: 25vh;
   justify-content: space-evenly;
-  background: rgb(246, 214, 72);
-  /* background: linear-gradient(
-    180deg,
-    rgba(246, 214, 72, 1) 77%,
-    rgba(255, 231, 123, 1) 86%,
-    rgba(255, 248, 217, 1) 96%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
+
+  background-color: #3b3b3b;
 }
 /* ========================================= */
 
 /* IMAGE PERSONAL */
 .imagen-personal {
-  width: 320px;
+  width: 325px;
   height: 380px;
   padding: 20px;
   background-image: url(../Conoceme/foto-mario-conti.jpeg);

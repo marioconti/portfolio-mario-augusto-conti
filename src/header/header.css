@@ -9,8 +9,9 @@
   color: #252525;
   font-size: 1.2em;
   font-weight: 500;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
+  z-index: 1;
 }
 
 /* ========================================= */
@@ -23,6 +24,7 @@
   color: #252525;
   transition: 0.25s linear;
   padding-bottom: 0.5rem;
+  /* FIXME:sacar outline */
 }
 
 .logo:visited,
