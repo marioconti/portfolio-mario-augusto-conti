@@ -50,11 +50,11 @@ const CardProyectoIzquierdo = (props) => {
             alt="imagen-proyecto-mobile"
           />
         </div>
-        <div className="contenedor-info">
+        <div className="contenedor-info bg-withe">
           <div className="descripcion">
             <p>{props.descripcion}</p>
           </div>
-          <a className="link-proyecto" href={props.link}>
+          <a className="link-proyecto-izq" href={props.link}>
             VISITA ESTE PROYECTO
           </a>
         </div>
@@ -88,7 +88,7 @@ const CardProyectoDerecho = (props) => {
           <div className="descripcion">
             <p>{props.descripcion}</p>
           </div>
-          <a className="link-proyecto" href={props.link}>
+          <a className="link-proyecto-der" href={props.link}>
             VISITA ESTE PROYECTO
           </a>
         </div>

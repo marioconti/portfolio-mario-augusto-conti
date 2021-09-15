@@ -4,12 +4,12 @@ import "./conoceme.css";
 export const Conoceme = () => {
   return (
     <>
-      <div className="section-conoceme">
+      <div className="section-conoceme  color-change-3x">
         <div className="imagen-personal"></div>
         <div className="info">
           <p className="texto-presentacion">
             Soy Mario, estudiante de
-            <span className="bold"> Desarrollo Frontend.</span>
+            <span className="bold"> Desarrollo Web Frontend.</span>
             <br />
             Actualmente me encuentro realizando prácticas en
             <span className="bold"> React</span>. <br />

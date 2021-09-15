@@ -10,7 +10,8 @@ html {
   box-sizing: inherit;
 }
 
-@font-face {
+/* Esta fuente está siendo importada desde los recursos*/
+/* @font-face {
   font-family: blanka;
   src: url(/src/recursos/BLANKA/Blanka-Regular.otf);
-}
+} */
