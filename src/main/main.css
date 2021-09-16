@@ -1,6 +1,5 @@
 .container-sections {
+  height: 200rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

@@ -1,0 +1,23 @@
+/* CONTENEDOR PRINCIPAL */
+.section-habilidades {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* //================================================== */
+/* CONTENEDOR DE SVGs */
+.contenedor-svg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-habilidad {
+  width: 8rem;
+}
+
+/* FIXME:arreglar esta seccion */
+/* //================================================== */

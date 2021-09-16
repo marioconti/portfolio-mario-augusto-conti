@@ -1,6 +1,6 @@
 .section-proyectos {
   width: 100%;
-  height: 100vh;
+  height: 40rem;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +26,7 @@
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  height: 100vh;
+  height: 40rem;
 }
 
 /* //================================================== */
@@ -72,7 +72,7 @@
 /* CONTENEDOR INFORMACION CARD */
 .contenedor-info {
   width: 50%;
-  height: 100vh;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;

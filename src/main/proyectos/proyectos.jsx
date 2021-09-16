@@ -1,7 +1,7 @@
 import React from "react";
 import "./proyectos.css";
-import { arrayProyectosIzquierda } from "./arrayproyectos";
-import { arrayProyectosDerecha } from "./arrayproyectos";
+import { arrayProyectosIzquierda } from "./arrayProyectos";
+import { arrayProyectosDerecha } from "./arrayProyectos";
 
 export const Proyectos = () => {
   return (
@@ -54,7 +54,7 @@ const CardProyectoIzquierdo = (props) => {
           <div className="descripcion">
             <p>{props.descripcion}</p>
           </div>
-          <a className="link-proyecto-izq" href={props.link}>
+          <a className="link-proyecto-izq" href={props.link} target="_blank">
             VISITA ESTE PROYECTO
           </a>
         </div>
@@ -88,7 +88,7 @@ const CardProyectoDerecho = (props) => {
           <div className="descripcion">
             <p>{props.descripcion}</p>
           </div>
-          <a className="link-proyecto-der" href={props.link}>
+          <a className="link-proyecto-der" href={props.link} target="_blank">
             VISITA ESTE PROYECTO
           </a>
         </div>

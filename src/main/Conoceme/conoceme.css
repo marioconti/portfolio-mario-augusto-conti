@@ -2,14 +2,13 @@
 
 .section-conoceme {
   width: 100%;
-  height: 100vh;
+  height: 40rem;
   display: flex;
   padding-top: 25vh;
   justify-content: space-evenly;
 
   background-color: #302f2f;
 }
-
 
 /* ========================================= */
 
@@ -29,7 +28,7 @@
 /* INFO = TEXTO + LINK */
 .info {
   width: 55vh;
-  height: 53vh;
+  height: 20rem;
   background-color: #f4f4f4c2;
   border-radius: 15%;
   display: flex;
