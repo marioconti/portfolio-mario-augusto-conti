@@ -6,10 +6,6 @@ export const Header = () => {
   return (
     <>
       <div className="section-header">
-        {/* <Link to="/">Inicio</Link>
-        <Link to="/"></Link>
-        <Link to="/"></Link>
-        <Link to="/"></Link> */}
         <a href="#" className="logo">
           Mario Conti
         </a>
@@ -17,16 +13,16 @@ export const Header = () => {
           <a href="#" className="link-section">
             Inicio
           </a>
-          <a href="#conoceme" className="link-section">
+          <a href="../#conoceme" className="link-section">
             Conóceme
           </a>
-          <a href="#" className="link-section">
+          <a href="../#proyectos" className="link-section">
             Proyectos
           </a>
-          <a href="#" className="link-section">
+          <a href="../#habilidades" className="link-section">
             Habilidades
           </a>
-          <a href="#" className="link-section">
+          <a href="../#contactame" className="link-section">
             {" "}
             Contactáme
           </a>

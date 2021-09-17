@@ -5,6 +5,12 @@ import { listaHabilidades } from "./arrayHabilidades";
 export const Tecnologias = () => {
   return (
     <>
+      <div id="habilidades" className="titulo-section">
+        {" "}
+        <div className="titulo-section-habilidades">
+          <p>HABILIDADES</p>
+        </div>
+      </div>
       <div className="section-habilidades">
         <ListadoHabilidades />
       </div>
@@ -30,15 +36,19 @@ const CardHabilidad = (props) => {
   return (
     <>
       <div className="contenedor-svg">
-        <img className="imagen-habilidad" src={props.imagenHabilidad} alt={props.nameHabildad} />
-      </div>
-      <div className="texto-descriptivo">
-        <p>{props.nameHabilidad}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio
-          commodi porro alias aliquid perferend is.
-        </p>
+        <img
+          className="image-habilidad"
+          src={props.imagenHabilidad}
+          alt={props.nameHabildad}
+        />
+        <div className="text-descriptivo">
+          {" "}
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+            delectus.
+          </p>
+        </div>
       </div>
     </>
   );
-};  
+};

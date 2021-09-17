@@ -6,7 +6,7 @@ import { arrayProyectosDerecha } from "./arrayProyectos";
 export const Proyectos = () => {
   return (
     <>
-      <div className="section-proyectos">
+      <div id="proyectos" className="section-proyectos">
         <ListaProyectosIzquierda />
         <ListaProyectosDerecha />
       </div>

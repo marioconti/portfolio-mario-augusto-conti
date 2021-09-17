@@ -1,23 +1,44 @@
 /* CONTENEDOR PRINCIPAL */
 .section-habilidades {
   width: 100%;
+  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+.titulo-section-habilidades {
+  margin-top: 4rem;
 }
 /* //================================================== */
 /* CONTENEDOR DE SVGs */
 .contenedor-svg {
-  width: 100%;
+  width: 30%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-
-.imagen-habilidad {
-  width: 8rem;
-}
-
-/* FIXME:arreglar esta seccion */
 /* //================================================== */
+/* NAME */
+.name-hability {
+  font-weight: 700;
+  font-size: 18px;
+}
+/* //================================================== */
+/* IMAGEN SVG */
+.image-habilidad {
+  width: 7rem;
+}
+/* TODO:sumar animacion como de zoom algo entretenido */
+/* //================================================== */
+/* ANIMACION SVG */
+
+/* //================================================== */
+/* TXT DESCRIPTIVO */
+.text-descriptivo {
+  margin-left: 1.9rem;
+  width: 15rem;
+  margin-top: 1rem;
+  font-weight: 450;
+  font-size: 18px;
+}
