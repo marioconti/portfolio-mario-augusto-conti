@@ -33,12 +33,13 @@ const ListadoHabilidades = () => {
 };
 
 const CardHabilidad = (props) => {
+  console.log(`../images${props.imagenHabilidad}`)
   return (
     <>
       <div className="contenedor-svg">
         <img
           className="image-habilidad"
-          src={props.imagenHabilidad}
+          src={`../images${props.imagenHabilidad}`}
           alt={props.nameHabildad}
         />
         <div className="text-descriptivo">
