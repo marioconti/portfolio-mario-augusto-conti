@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-mario-augusto-conti/static/css/main.a14d17e5.chunk.css",
-    "main.js": "/portfolio-mario-augusto-conti/static/js/main.90520e7e.chunk.js",
-    "main.js.map": "/portfolio-mario-augusto-conti/static/js/main.90520e7e.chunk.js.map",
+    "main.css": "/portfolio-mario-augusto-conti/static/css/main.2e261a81.chunk.css",
+    "main.js": "/portfolio-mario-augusto-conti/static/js/main.b4b76e18.chunk.js",
+    "main.js.map": "/portfolio-mario-augusto-conti/static/js/main.b4b76e18.chunk.js.map",
     "runtime-main.js": "/portfolio-mario-augusto-conti/static/js/runtime-main.daced6bd.js",
     "runtime-main.js.map": "/portfolio-mario-augusto-conti/static/js/runtime-main.daced6bd.js.map",
     "static/js/2.570c014f.chunk.js": "/portfolio-mario-augusto-conti/static/js/2.570c014f.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.66ad1a58.chunk.js": "/portfolio-mario-augusto-conti/static/js/3.66ad1a58.chunk.js",
     "static/js/3.66ad1a58.chunk.js.map": "/portfolio-mario-augusto-conti/static/js/3.66ad1a58.chunk.js.map",
     "index.html": "/portfolio-mario-augusto-conti/index.html",
-    "static/css/main.a14d17e5.chunk.css.map": "/portfolio-mario-augusto-conti/static/css/main.a14d17e5.chunk.css.map",
+    "static/css/main.2e261a81.chunk.css.map": "/portfolio-mario-augusto-conti/static/css/main.2e261a81.chunk.css.map",
     "static/js/2.570c014f.chunk.js.LICENSE.txt": "/portfolio-mario-augusto-conti/static/js/2.570c014f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.daced6bd.js",
     "static/js/2.570c014f.chunk.js",
-    "static/css/main.a14d17e5.chunk.css",
-    "static/js/main.90520e7e.chunk.js"
+    "static/css/main.2e261a81.chunk.css",
+    "static/js/main.b4b76e18.chunk.js"
   ]
 }
