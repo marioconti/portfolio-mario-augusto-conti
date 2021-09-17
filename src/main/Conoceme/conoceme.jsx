@@ -9,7 +9,7 @@ export const Conoceme = () => {
           <div className="encabezado">
             <img
               className="image-Mario-Conti"
-              src="../imagenes-trabajos/foto-mario-conti.jpeg"
+              src="../../images/foto-mario-conti.jpeg"
               alt="Imagen Mario Conti"
             />
             <div className="titulo-seccion">

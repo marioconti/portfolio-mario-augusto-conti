@@ -7,7 +7,7 @@ export const Header = () => {
     <>
       <div className="section-header">
         <a href="#" className="logo">
-          Mario Conti
+          <p>MC</p>
         </a>
         <div className="nav-sections">
           <a href="#" className="link-section">
@@ -22,7 +22,7 @@ export const Header = () => {
           <a href="../#habilidades" className="link-section">
             Habilidades
           </a>
-          <a href="../#contactame" className="link-section">
+          <a href="../#contacto" className="link-section">
             {" "}
             Contactáme
           </a>

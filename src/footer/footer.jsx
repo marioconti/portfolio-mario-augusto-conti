@@ -4,7 +4,7 @@ import "./footer.css";
 export const Footer = () => {
   return (
     <>
-      <div id="contactame" className="section-footer">
+      <div id="contacto" className="section-footer">
         <div className="info-contacto">
           <h2>Contáctame</h2>
           <p>
@@ -25,7 +25,7 @@ export const Footer = () => {
             {" "}
             <img
               className="svgFooter"
-              src="../svgLinks/linkedin.png"
+              src="../../images/linkLinkedin.png"
               alt="link linkedin"
             />
           </a>
@@ -33,7 +33,7 @@ export const Footer = () => {
           <a target="_blank" href="https://www.github.com/marioconti">
             <img
               className="svgFooter"
-              src="../svgLinks/github.png"
+              src="../../images/linkGithub.png"
               alt="link githuba"
             />
           </a>
@@ -42,7 +42,7 @@ export const Footer = () => {
             {" "}
             <img
               className="svgFooter bg-withe-svg"
-              src="../svgLinks/facebook.png"
+              src="../../images/linkFacebook.png"
               alt="link facebook"
             />
           </a>
@@ -54,7 +54,7 @@ export const Footer = () => {
             {" "}
             <img
               className="svgFooter instagram bg-withe-svg"
-              src="../svgLinks/instagram.png"
+              src="../../images/linkInstagram.png"
               alt="link instagram"
             />
           </a>
