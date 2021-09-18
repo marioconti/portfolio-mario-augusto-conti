@@ -18,10 +18,14 @@ html {
   text-align: left;
   font-size: 2.8em;
 }
+
+.bold {
+  font-weight: bold;
+}
 /* //================================================== */
 
 /* Esta fuente está siendo importada desde los recursos*/
 /* @font-face {
   font-family: blanka;
-  src: url(/src/recursos/BLANKA/Blanka-Regular.otf);
+  src: url(/src/recursos/Blanka-Regular.otf);
 } */

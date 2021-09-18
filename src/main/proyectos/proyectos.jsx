@@ -1,5 +1,6 @@
 import React from "react";
 import "./proyectos.css";
+import "./proyectos-queries.css";
 import { arrayProyectosIzquierda } from "./arrayProyectos";
 import { arrayProyectosDerecha } from "./arrayProyectos";
 
@@ -36,9 +37,8 @@ const CardProyectoIzquierdo = (props) => {
     <>
       <div className="contenedor-card">
         <div className="contenedor-imagenes bg-yellow">
-          <div className="nombre-proyecto">
-            <p>{props.name}</p>
-          </div>
+          <p className="nombre-proyecto">{props.name}</p>
+
           <img
             className="imagen-desktop"
             src={props.imagenDesktop}
@@ -93,9 +93,8 @@ const CardProyectoDerecho = (props) => {
           </a>
         </div>
         <div className="contenedor-imagenes bg-yellow">
-          <div className="nombre-proyecto">
-            <p>{props.name}</p>
-          </div>
+          <p className="nombre-proyecto">{props.name}</p>
+
           <img
             className="imagen-desktop"
             src={props.imagenDesktop}

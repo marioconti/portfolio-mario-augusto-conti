@@ -1,0 +1,59 @@
+@media screen and (max-width: 899px) {
+  /* CONTENEDOR CARD */
+  .contenedor-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* //================================================== */
+  /* CONTENEDOR IMAGENES */
+  .contenedor-imagenes {
+    width: 100%;
+    height: auto;
+  }
+
+  .nombre-proyecto {
+    width: auto;
+    position: initial;
+    margin: -2rem;
+    margin-top: 4rem;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* IMAGEN DESKTOP */
+  .imagen-desktop {
+    margin-top: 0;
+  }
+  /* IMG MOBILE IZQ */
+  .imagen-mobile-izq {
+    position: initial;
+    width: 60%;
+    margin-bottom: 5rem;
+  }
+  /* IMG MOBILE DER */
+  .imagen-mobile-der {
+    position: initial;
+    width: 32%;
+    margin-bottom: 5rem;
+  }
+
+  .contenedor-info {
+    width: 100%;
+    height: auto;
+  }
+
+  .descripcion {
+    width: 80%;
+    padding: 2rem;
+    margin-top: 5rem;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  .link-proyecto-der,
+  .link-proyecto-izq {
+    margin-bottom: 2rem;
+  }
+
+  /* //================================================== */
+}

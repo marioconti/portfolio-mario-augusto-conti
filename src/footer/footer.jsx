@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import "./footer-queries.css";
 
 export const Footer = () => {
   return (

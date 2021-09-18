@@ -19,7 +19,8 @@
 /* LOGO */
 .logo {
   width: 4rem;
-  font-family: blanka;
+  height: 4rem;
+  font-weight: bold;
   text-decoration: none;
   margin-left: 3rem;
   font-size: 30px;
@@ -29,8 +30,9 @@
 }
 
 .logo p {
+  margin: 0;
   height: 4rem;
-  padding-top: 0.3rem;
+  padding-top: 0.5rem;
   border: 3px solid #1f1f1f;
   border-radius: 50%;
   text-align: center;

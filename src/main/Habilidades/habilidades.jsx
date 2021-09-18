@@ -1,5 +1,6 @@
 import React from "react";
 import "./habilidades.css";
+import "./habilidades-queries.css";
 import { listaHabilidades } from "./arrayHabilidades";
 
 export const Tecnologias = () => {
@@ -25,6 +26,7 @@ const ListadoHabilidades = () => {
         <CardHabilidad
           nameHabilidad={svg.nameHabilidad}
           imagenHabilidad={svg.imagenHabilidad}
+          textoDescriptivo={svg.textoDescriptivo}
         />
       </>
     );
@@ -33,21 +35,17 @@ const ListadoHabilidades = () => {
 };
 
 const CardHabilidad = (props) => {
-  console.log(`../images${props.imagenHabilidad}`)
   return (
     <>
       <div className="contenedor-svg">
         <img
           className="image-habilidad"
-          src={`../images${props.imagenHabilidad}`}
+          src={props.imagenHabilidad}
           alt={props.nameHabildad}
         />
         <div className="text-descriptivo">
           {" "}
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
-            delectus.
-          </p>
+          <p>{props.textoDescriptivo}</p>
         </div>
       </div>
     </>

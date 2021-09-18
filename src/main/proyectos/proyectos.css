@@ -10,7 +10,7 @@
   background-color: #f8f8f8;
 }
 .bg-yellow {
-  background: rgb(246, 214, 72);
+  background: rgb(250, 222, 118);
 }
 /* //================================================== */
 /* CONTENEDOR CARD */
@@ -31,8 +31,8 @@
 
 /* //================================================== */
 /* NOMBRE PROYECTO */
-.nombre-proyecto p {
-  width: 15rem;
+.nombre-proyecto {
+  width: auto;
   color: #472da5;
   background-color: #ffff;
   padding: 1rem;

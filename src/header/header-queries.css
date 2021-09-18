@@ -1,0 +1,35 @@
+@media screen and (max-width: 899px) {
+  .section-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: initial;
+    z-index: 2;
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 2rem 0;
+  }
+
+  .logo p {
+    margin: 0;
+    height: 4rem;
+    padding-top: 0.7rem;
+    border: 3px solid #1f1f1f;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  .nav-sections {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .link-section {
+    margin: 0.5rem 0;
+  }
+}
