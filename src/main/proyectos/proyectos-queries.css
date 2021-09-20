@@ -1,4 +1,12 @@
 @media screen and (max-width: 899px) {
+  .titulo-seccion-proyecto p {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    border-radius: initial;
+  }
+
   /* CONTENEDOR CARD */
   .contenedor-card {
     width: 100%;
@@ -27,13 +35,13 @@
   /* IMG MOBILE IZQ */
   .imagen-mobile-izq {
     position: initial;
-    width: 60%;
+    width: 35%;
     margin-bottom: 5rem;
   }
   /* IMG MOBILE DER */
   .imagen-mobile-der {
     position: initial;
-    width: 32%;
+    width: 70%;
     margin-bottom: 5rem;
   }
 

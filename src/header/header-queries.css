@@ -1,13 +1,14 @@
 @media screen and (max-width: 899px) {
   .section-header {
     width: 100%;
-    height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: initial;
-    z-index: 2;
+    position: fixed;
     text-decoration: none;
+    padding: 0 1rem;
+  }
+
+  .nav-sections {
+    display: none;
   }
 
   .logo {
@@ -23,13 +24,29 @@
     text-align: center;
   }
 
-  .nav-sections {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
+  /* MENU HAMBURGUESA */
+
+  .navbar-mobile {
+    display: block;
+  }
+
+  .nav-menu-mobile {
+    width: 0%;
+  }
+
+  #hamburguesa:checked ~ .nav-menu-mobile {
+    width: 100%;
   }
 
   .link-section {
-    margin: 0.5rem 0;
+    font-size: 22px;
+    margin: 1.3rem 0;
   }
+
+  .link-section:nth-child(1) {
+    font-size: 24px;
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+  /* ============================================== */
 }

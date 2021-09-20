@@ -14,7 +14,10 @@ export const Conoceme = () => {
               alt="Imagen Mario Conti"
             />
             <div className="titulo-seccion">
-              <p>Todo comienza con una idea...</p>
+              <p>
+                Pensemos, soñemos, <br />
+                <span>creemos</span>
+              </p>
             </div>
           </div>
           <div className="descripcion-conoceme">
@@ -25,12 +28,12 @@ export const Conoceme = () => {
                 Actualmente me encuentro realizando prácticas en
                 <span className="bold"> React</span>. <br /> Aspiro a ser parte
                 de grandes proyectos que generen{" "}
-                <span className="bold"> experiencias inolvidables</span> <br />
+                <span className="bold"> experiencias inolvidables.</span> <br />
                 Si buscas alguien{" "}
                 <span className="bold">organizado, detallista</span>, con
                 <span className="bold"> actitud</span> y muchas ganas de{" "}
-                <span className="bold">crecer en equipo</span> no dudes en
-                contactarme!
+                <span className="bold">crecer y trabajar en equipo</span> no
+                dudes en contactarme!
               </p>
             </div>
             <a id="conoceme" className="link-contactame" href="../#contacto">

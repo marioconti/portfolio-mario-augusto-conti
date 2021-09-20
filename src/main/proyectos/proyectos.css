@@ -4,13 +4,40 @@
   display: flex;
   flex-direction: column;
 }
+
+.titulo-seccion-proyecto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo-seccion-proyecto p {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  margin-bottom: -2.5rem;
+  padding: 0.4rem 0;
+  background-color: #2e2c31;
+  border-radius: 50px;
+  color: #ffff;
+  font-size: 2.5em;
+  text-align: center;
+  z-index: 1;
+}
 /* //================================================== */
 /* OTROS */
 .bg-withe {
   background-color: #f8f8f8;
 }
+.bg-grey {
+  background-color: #eeeeee;
+}
 .bg-yellow {
   background: rgb(250, 222, 118);
+}
+.bg-purple {
+  background-color: #747cff;
 }
 /* //================================================== */
 /* CONTENEDOR CARD */
@@ -27,6 +54,7 @@
   flex-direction: column;
   width: 50%;
   height: 40rem;
+  position: relative;
 }
 
 /* //================================================== */
@@ -66,7 +94,7 @@
   position: relative;
   bottom: 320px;
   left: 210px;
-  width: 22%;
+  width: 45%;
 }
 /* //================================================== */
 /* CONTENEDOR INFORMACION CARD */
